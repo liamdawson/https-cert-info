@@ -10,6 +10,12 @@ A command-line tool outputs a summary of the HTTPS certificate (or certificate c
 cargo install https-cert-info
 ```
 
+### Homebrew
+
+```shell
+brew install liamdawson/repo/https-cert-info
+```
+
 ### Manual
 
 Download the binary from the [latest release](https://github.com/liamdawson/https-cert-info/releases/latest), and place it somewhere on `$PATH`.
