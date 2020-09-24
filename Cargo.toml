@@ -1,0 +1,23 @@
+[package]
+name = "https-cert-info"
+description = "View a summary of the HTTPS certificate for a server"
+version = "0.1.0"
+authors = ["Liam Dawson <liam@ldaws.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.32"
+chrono = "0.4.15"
+console = "0.12.0"
+once_cell = "1.4.1"
+regex = "1"
+rustls = "0.18.1"
+rustls-native-certs = "0.4.0"
+structopt = "0.3.17"
+webpki = "0.21.3"
+x509-parser = "0.8.0"
+
+[build-dependencies]
+structopt = "0.3.17"
